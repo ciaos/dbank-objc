@@ -1,4 +1,4 @@
-Dbank SDK Objective-C
+锘緿bank SDK Objective-C
 =====================
 * * *
 
@@ -50,7 +50,7 @@ NSLog(@"download = %d",dl);
 See Also
 --------
 
-[dbank开放平台](http://open.dbank.com)
+[dbank寮�鏀惧钩鍙癩(http://open.dbank.com)
 
 Weibo Account
 -------------
