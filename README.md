@@ -12,6 +12,13 @@ Description
 How to use
 ----------
 
+*	Import header files And **nspclient.dylib**
+<pre><code>
+#import "NSPClient.h"
+#import "Vfs.h"
+#import "User.h"
+</code></pre>
+
 *   Create nspclient object
 <pre><code>
 NSPClient *nc = [[[NSPClient alloc]
