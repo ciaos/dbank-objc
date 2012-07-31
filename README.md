@@ -1,14 +1,16 @@
 Dbank SDK Objective-C
 =====================
+* * *
+
+Description
+-----------
 
 > 1. basic dbank api(lsdir/movefile/copyfile/rmfile ...)
 > 2. It's easy to upload a file to netdisk.
-> 3. Download a file is easier.
+> 3. It's easier to download a file from netdisk.
 
-* * *
-
-Follow me
----------
+How to use
+----------
 
 *   Create nspclient object
 <pre><code>
@@ -38,8 +40,13 @@ BOOL dl = [nc download:@"/Netdisk/a.txt" To:@"/Users/penjin/a.txt"];
 NSLog(@"download = %d",dl);
 </code></pre>
 
+See Also
+--------
 
-Further information
--------------------
-[dbank.com](http://dbank.com)
 [open.dbank.com](http://open.dbank.com)
+
+Weibo Account
+-------------
+
+Have a question? @littley
+
