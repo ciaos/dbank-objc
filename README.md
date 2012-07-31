@@ -50,7 +50,7 @@ NSLog(@"download = %d",dl);
 See Also
 --------
 
-[open.dbank.com](http://open.dbank.com)
+[dbank开放平台](http://open.dbank.com)
 
 Weibo Account
 -------------
