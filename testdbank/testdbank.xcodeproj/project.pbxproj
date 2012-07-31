@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A502684915C6D14A003408F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A502684815C6D14A003408F9 /* Foundation.framework */; };
+		A502684C15C6D14A003408F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A502684B15C6D14A003408F9 /* main.m */; };
+		A502685015C6D14A003408F9 /* testdbank.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A502684F15C6D14A003408F9 /* testdbank.1 */; };
+		A502688F15C6D26A003408F9 /* nspclient.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A502688D15C6D234003408F9 /* nspclient.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A502688C15C6D234003408F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A502688415C6D233003408F9 /* dbank-objc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A502679215C6CD53003408F9;
+			remoteInfo = "dbank-objc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A502684215C6D14A003408F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A502685015C6D14A003408F9 /* testdbank.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A502684415C6D14A003408F9 /* testdbank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testdbank; sourceTree = BUILT_PRODUCTS_DIR; };
+		A502684815C6D14A003408F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A502684B15C6D14A003408F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A502684E15C6D14A003408F9 /* testdbank-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testdbank-Prefix.pch"; sourceTree = "<group>"; };
+		A502684F15C6D14A003408F9 /* testdbank.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = testdbank.1; sourceTree = "<group>"; };
+		A502688415C6D233003408F9 /* dbank-objc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "dbank-objc.xcodeproj"; path = "../dbank-objc/dbank-objc.xcodeproj"; sourceTree = "<group>"; };
+		A502689015C6D36B003408F9 /* NSPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSPClient.h; path = "../dbank-objc/dbank-objc/nsp/NSPClient.h"; sourceTree = "<group>"; };
+		A502689115C6D36B003408F9 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = "../dbank-objc/dbank-objc/nsp/User.h"; sourceTree = "<group>"; };
+		A502689215C6D36B003408F9 /* Vfs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vfs.h; path = "../dbank-objc/dbank-objc/nsp/Vfs.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A502684115C6D14A003408F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A502688F15C6D26A003408F9 /* nspclient.dylib in Frameworks */,
+				A502684915C6D14A003408F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A502683915C6D14A003408F9 = {
+			isa = PBXGroup;
+			children = (
+				A502689315C6D3FF003408F9 /* nsp */,
+				A502684A15C6D14A003408F9 /* testdbank */,
+				A502684715C6D14A003408F9 /* Frameworks */,
+				A502684515C6D14A003408F9 /* Products */,
+				A502688415C6D233003408F9 /* dbank-objc.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		A502684515C6D14A003408F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A502684415C6D14A003408F9 /* testdbank */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A502684715C6D14A003408F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A502684815C6D14A003408F9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A502684A15C6D14A003408F9 /* testdbank */ = {
+			isa = PBXGroup;
+			children = (
+				A502684B15C6D14A003408F9 /* main.m */,
+				A502684F15C6D14A003408F9 /* testdbank.1 */,
+				A502684D15C6D14A003408F9 /* Supporting Files */,
+			);
+			path = testdbank;
+			sourceTree = "<group>";
+		};
+		A502684D15C6D14A003408F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A502684E15C6D14A003408F9 /* testdbank-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A502688515C6D233003408F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A502688D15C6D234003408F9 /* nspclient.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A502689315C6D3FF003408F9 /* nsp */ = {
+			isa = PBXGroup;
+			children = (
+				A502689015C6D36B003408F9 /* NSPClient.h */,
+				A502689115C6D36B003408F9 /* User.h */,
+				A502689215C6D36B003408F9 /* Vfs.h */,
+			);
+			name = nsp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A502684315C6D14A003408F9 /* testdbank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A502685315C6D14A003408F9 /* Build configuration list for PBXNativeTarget "testdbank" */;
+			buildPhases = (
+				A502684015C6D14A003408F9 /* Sources */,
+				A502684115C6D14A003408F9 /* Frameworks */,
+				A502684215C6D14A003408F9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testdbank;
+			productName = testdbank;
+			productReference = A502684415C6D14A003408F9 /* testdbank */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A502683B15C6D14A003408F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A502683E15C6D14A003408F9 /* Build configuration list for PBXProject "testdbank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A502683915C6D14A003408F9;
+			productRefGroup = A502684515C6D14A003408F9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A502688515C6D233003408F9 /* Products */;
+					ProjectRef = A502688415C6D233003408F9 /* dbank-objc.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A502684315C6D14A003408F9 /* testdbank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A502688D15C6D234003408F9 /* nspclient.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = nspclient.dylib;
+			remoteRef = A502688C15C6D234003408F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A502684015C6D14A003408F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A502684C15C6D14A003408F9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A502685115C6D14A003408F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A502685215C6D14A003408F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A502685415C6D14A003408F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testdbank/testdbank-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A502685515C6D14A003408F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testdbank/testdbank-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A502683E15C6D14A003408F9 /* Build configuration list for PBXProject "testdbank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A502685115C6D14A003408F9 /* Debug */,
+				A502685215C6D14A003408F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A502685315C6D14A003408F9 /* Build configuration list for PBXNativeTarget "testdbank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A502685415C6D14A003408F9 /* Debug */,
+				A502685515C6D14A003408F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A502683B15C6D14A003408F9 /* Project object */;
+}
