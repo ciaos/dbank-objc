@@ -21,32 +21,32 @@ How to use
 </code></pre>
 
 *   创建nspclient对象（使用鉴权sid与secret）
-<pre><code>
+```objective-c
 NSPClient *nc = [[[NSPClient alloc]
                           initWith:@"iuTeAN9uaQ6xYuCt8f7uaL4Hwua5CgiU2J0kYJq01KtsA4DY" 
                           And:@"c94f61061b46668c25d377cead92f898"] autorelease];
-</code></pre>
+```
 
 *   调用网盘Vfs/User服务
-<pre><code>
+```objective-c
 Vfs *vfs = [nc service:[Vfs alloc]]; 
 NSArray *fields = [NSArray arrayWithObjects:@"name",@"url",@"size",@"type",nil];
 id res = [vfs lsdir:@"/Netdisk/" With:fields And:[NSNumber numberWithInt:3]];
 NSLog(@"lsdir = %@",res);
-</code></pre>
+```
 
 *   上传一个文件到dbank
-<pre><code>
+```objective-c
 NSArray *files = [NSArray arrayWithObjects:@"/Users/penjin/Projects/a.txt",nil];
 res = [nc upload:@"/Netdisk/" With:files];
 NSLog(@"upload = %@",res);
-</code></pre>
+```
 
 *	从网盘下载文件
-<pre><code>
+```objective-c
 BOOL dl = [nc download:@"/Netdisk/a.txt" To:@"/Users/penjin/a.txt"];
 NSLog(@"download = %d",dl);
-</code></pre>
+```
 
 See Also
 --------
